@@ -46,6 +46,7 @@ maven_install(
     artifacts = [
         "androidx.annotation:annotation:1.5.0",
         "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core-ktx:1.10.1",
         "androidx.appcompat:appcompat-resources:1.6.1",
         "androidx.collection:collection:1.2.0",
         "androidx.constraintlayout:constraintlayout:2.1.3",

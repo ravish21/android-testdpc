@@ -83,7 +83,7 @@ public class ColorPicker extends DialogFragment
       mListenerTag = savedInstanceState.getString(ARG_LISTENER_FRAGMENT_TAG);
       mId = savedInstanceState.getString(ARG_ID);
     } else if (getArguments() != null) {
-      mCurrentColor = getArguments().getInt(ARG_COLOR_VALUE, getResources().getColor(R.color.teal));
+      mCurrentColor = getArguments().getInt(ARG_COLOR_VALUE, getResources().getColor(android.R.color.black));
       mListenerTag = getArguments().getString(ARG_LISTENER_FRAGMENT_TAG);
       mId = getArguments().getString(ARG_ID);
     }

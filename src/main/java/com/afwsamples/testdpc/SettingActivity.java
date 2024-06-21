@@ -13,6 +13,7 @@ import android.util.Log;
 import com.afwsamples.testdpc.util.Constant;
 import com.afwsamples.testdpc.util.SharedPrefs;
 import com.afwsamples.testdpc.util.CommonUtil;
+//import com.afwsamples.testdpc.api.RetrofitCall;
 
 public class SettingActivity extends Activity {
     @Override

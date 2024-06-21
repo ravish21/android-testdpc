@@ -94,14 +94,15 @@
 
     <style name="SelectionDesc">
         <item name="android:textSize">@dimen/selection_detailed_text_size</item>
-        <item name="android:textColor">@color/gray</item>
+        <item name="android:textColor">@color/light_gray</item>
         <item name="android:paddingTop">@dimen/selection_detailed_text_padding_top</item>
         <item name="android:paddingBottom">@dimen/selection_detailed_text_padding_bottom</item>
     </style>
 
-    <style name="SelectionButton" parent="SudGlifButton.Primary">
+    <style name="SelectionButton">
         <item name="android:textSize">@dimen/selection_detailed_title_size</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
 </resources>
+

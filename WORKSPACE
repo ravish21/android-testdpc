@@ -1,5 +1,13 @@
 workspace(name = "testdpc")
 
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+load("@bazel_tools//tools/build_defs/repo:jvm.bzl", "jvm_maven_import_external")
+load("@robolectric//bazel:robolectric.bzl", "robolectric_repositories")
+load("@rules_jvm_external//:defs.bzl", "maven_install")
+load("@rules_jvm_external//:repositories.bzl", "rules_jvm_external_deps")
+load("@rules_jvm_external//:setup.bzl", "rules_jvm_external_setup")
+load("@rules_jvm_external//:specs.bzl", "maven")
+
 android_sdk_repository(
     name = "androidsdk",
     api_level = 34,
@@ -79,6 +87,7 @@ maven_install(
         "org.robolectric:shadows-core:3.3.2",
         "org.bouncycastle:bcpkix-jdk15on:1.70",
         "org.bouncycastle:bcprov-jdk15on:1.70",
+        "com.google.firebase:firebase-core:jar:21.1.1",
     ],
     repositories = [
         "https://maven.google.com",

@@ -100,8 +100,8 @@ android_library(
         ":androidx_deps",
         ":bouncycastle_deps",
         ":guava_deps",
-        "@setupdesign//:setupdesign",
-        "@setupcompat//:setupcompat",
+        "@setupcompat",
+        "@setupdesign",
     ],
 )
 
